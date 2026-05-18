@@ -32,17 +32,17 @@ export function Footer() {
           </ul> */}
 
           <p className="text-sm text-muted-foreground text-center">
-            API yang digunakan:{" "}
-            <a 
-                  href="https://api.sansekai.my.id" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 text-primary hover:underline font-semibold"
-                >
-                  SΛNSΞKΛI API
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-          </p>
+   Pengembang:{" "}
+  <a 
+    href="https://t.me/Bleszh" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1 hover:underline font-semibold"
+  >
+    Telegram
+    <ExternalLink className="w-3 h-3" />
+  </a>
+</p>
 
           {/* Copyright */}
           <p className="text-xs text-muted-foreground/80 text-center font-medium">
